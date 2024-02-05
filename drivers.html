@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/drivers.css" />
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <div class="navigation">
+                <div class="navigation__head">
+                    <a href="dashboard.html">
+                        <img src="accets/images/user-image-nav.svg" alt="image" />
+                    </a>
+                    <div class="navigation__head--item">
+                        <span>Samantha</span>
+                        <span>+998 (99) 436-46-15</span>
+                    </div>
+                </div>
+
+                <div class="navigation__body">
+                    <span class="menu__span">MAIN MENU</span>
+                    <ul class="list">
+                        <li>
+                            <img src="accets/images/icons/nav-dashboard-icon.svg" alt="image" />
+                            <a href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-orders-icon.svg" alt="image" />
+                            <a href="orders.html">Orders</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-rides-icon.svg" alt="image" />
+                            <a href="rides.html">Rides</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-clients-grey-icon.svg" alt="image" />
+                            <a href="clients.html">Clients</a>
+                        </li>
+                        <li class="list__item selected__item">
+                            <img src="accets/images/icons/nav-drivers-blue-icon.svg" alt="image" />
+                            <a href="drivers.html">Drivers</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-shift-icon.svg" alt="image" />
+                            <a href="shift.html">Shift</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-map-icon.svg" alt="image" />
+                            <a href="livemap.html">Live map</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-car-classes-icon.svg" alt="image" />
+                            <a href="carclasses.html">Car classes</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-branches-icon.svg" alt="image" />
+                            <a href="branch.html">Branches</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-moderators-icon.svg" alt="image" />
+                            <a href="moderators.html">Moderators</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-setting-icon.svg" alt="image" />
+                            <a href="">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <header>
+                <div class="header">
+                    <div class="header__left">
+                        <img src="accets/images/icons/menu-icon.svg" alt="image" />
+                        <div class="short__flex--row">
+                            <h1>Good morning, <span>Maharram</span></h1>
+                            <img src="accets/images/icons/hand-icon.png" alt="image" width="25px" />
+                        </div>
+                        <p>
+                            you have <span>1 new message</span>
+                        </p>
+                    </div>
+                    <div class="header__right">
+                        <a href="index.html">
+                            <img src="accets/images/icons/outdoor-icon.svg" alt="image" />
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <section>
+                    <div class="first__section">
+                        <div class="first__section--leftside">
+                            <h2>Drivers list</h2>
+                            <div class="search__container">
+                                <input type="search" placeholder="Search by Name" class="input__search" />
+                                <img src="accets/images/icons/search-icon.svg" alt="image" class="search__image" />
+                            </div>
+                        </div>
+
+                        <div class="first__section--rightside">
+                            <img src="accets/images/icons/internet-waves-icon.svg" alt="image" />
+
+                            <div class="select__driver">
+                                <a href="drivers2.html">
+                                    <span>All driver</span>
+                                <img src="accets/images/icons/chevron-down-icon.svg" alt="image" width="15px" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="table__wrapper">
+                        <table class="table__container">
+
+                            <thead class="table__head">
+                                <tr>
+                                    <th>
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            First name
+                                        </div>
+                                    </th>
+                                    <th>
+                                        Last name
+                                    </th>
+                                    <th>Birthdate</th>
+                                    <th>State</th>
+                                    <th>Home location</th>
+                                    <th>Work location</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="table__body">
+                                <tr>
+                                    <td class="table__three">
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            Sierra
+                                        </div>
+                                    </td>
+                                    <td class="table__three">Ferguson</td>
+                                    <td class="table__three">9/5/1990</td>
+                                    <td class="table__three"> Created</td>
+                                    <td class="big__space">+998 (99) 436-46-15</td>
+                                    <td>
+                                        <div class="table__end background__purple">
+                                            some time ago
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table__three">
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            Nathaniel
+                                        </div>
+                                    </td>
+                                    <td class="table__three">Lawrence</td>
+                                    <td class="table__three">6/5/1973</td>
+                                    <td class="table__three">Active</td>
+                                    <td class="big__space">+998 (99) 436-46-15</td>
+                                    <td>
+                                        <div class="table__end background__pink">
+                                            1 months ago
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table__three">
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            Alberto
+                                        </div>
+                                    </td>
+                                    <td class="table__three">Daniels</td>
+                                    <td class="table__three">11/4/1964</td>
+                                    <td class="table__three">Created</td>
+                                    <td class="big__space">+998 (99) 436-46-15</td>
+                                    <td>
+                                        <div class="table__end background__purple">
+                                            3 days ago
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table__three">
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            Mary
+                                        </div>
+                                    </td>
+                                    <td class="table__three">Mills</td>
+                                    <td class="table__three">11/3/1963</td>
+                                    <td class="table__three">Active</td>
+                                    <td class="big__space">+998 (99) 436-46-15</td>
+                                    <td>
+                                        <div class="table__end background__purple">
+                                            some time ago
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="last__tr">
+                                    <td class="table__three">
+                                        <div class="th__beggining">
+                                            <input type="checkbox">
+                                            Bessie
+                                        </div>
+                                    </td>
+                                    <td class="table__three">Spencer</td>
+                                    <td class="table__three">1/2/1949</td>
+                                    <td class="table__three">Active</td>
+                                    <td class="big__space">+998 (99) 436-46-15</td>
+                                    <td>
+                                        <div class="table__end background__pink">
+                                            2 weeks ago
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="after__table">
+                        <div class="after__table--left">
+                            <span>
+                                Total users: 98
+                            </span>
+                            <span>
+                                Active drivers: 9
+                            </span>
+                        </div>
+
+
+                        <div class="after__table--right">
+                            
+                                <span>
+                                    1-2 of items
+                                </span>
+
+                                <div>
+
+                                    <div class="numbers">
+                                        <img src="accets/images/icons/chevron-left.svg" alt="image" />
+                                    </div>
+
+                                    <div class="one__two">
+                                        <div class="numbers background__dark--purple">
+                                            1
+                                        </div>
+                                        <div class="numbers">
+                                            2
+                                        </div>
+                                    </div>
+
+                                    <div class="numbers">
+                                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                                    </div>
+
+                                </div>
+                        
+                        </div>
+
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

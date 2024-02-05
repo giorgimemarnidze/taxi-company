@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rides.css" />
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <div class="navigation">
+                <div class="navigation__head">
+                    <a href="dashboard.html">
+                        <img src="accets/images/user-image-nav.svg" alt="image" />
+                    </a>
+                    <div class="navigation__head--item">
+                        <span>Samantha</span>
+                        <span>+998 (99) 436-46-15</span>
+                    </div>
+                </div>
+
+                <div class="navigation__body">
+                    <span class="menu__span">MAIN MENU</span>
+                    <ul class="list">
+                        <li>
+                            <img src="accets/images/icons/nav-dashboard-icon.svg" alt="image" />
+                            <a href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-orders-icon.svg" alt="image" />
+                            <a href="orders.html">Orders</a>
+                        </li>
+                        <li class="list__item selected__item">
+                            <img src="accets/images/icons/nav-rides-blue-icon.svg" alt="image" />
+                            <a href="rides.html">Rides</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-clients-icon.svg" alt="image" />
+                            <a href="clients.html">Clients</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-drivers-icon.svg" alt="image" />
+                            <a href="drivers.html">Drivers</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-shift-icon.svg" alt="image" />
+                            <a href="shift.html">Shift</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-map-icon.svg" alt="image" />
+                            <a href="livemap.html">Live map</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-car-classes-icon.svg" alt="image" />
+                            <a href="carclasses.html">Car classes</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-branches-icon.svg" alt="image" />
+                            <a href="branch.html">Branches</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-moderators-icon.svg" alt="image" />
+                            <a href="moderators.html">Moderators</a>
+                        </li>
+                        <li>
+                            <img src="accets/images/icons/nav-setting-icon.svg" alt="image" />
+                            <a href="">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <header>
+                <div class="header">
+                    <div class="header__left">
+                        <img src="accets/images/icons/menu-icon.svg" alt="image" />
+                        <div class="short__flex--row">
+                            <h1>Good morning, <span>Maharram</span></h1>
+                            <img src="accets/images/icons/hand-icon.png" alt="image" width="25px" />
+                        </div>
+                        <p>
+                            you have <span>1 new message</span>
+                        </p>
+                    </div>
+                    <div class="header__right">
+                        <a href="index.html">
+                            <img src="accets/images/icons/outdoor-icon.svg" alt="image" />
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <section>
+                    <div class="line">
+                        <div>
+                            <span>Pending (5)</span>
+                            <div class="active"></div>
+                        </div>
+                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                        <span><a href="rides2.html" id="black__item">In progress (1)</a></span>
+                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                        <span>Completed (70)</span>
+                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                        <span>Upcoming (0)</span>
+                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                        <span>Pre cancelled (26)</span>
+                        <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                        <span>Cancelled by driver (1)</span>
+                    </div>
+                </section>
+                <section>
+                    <div class="whole__table--container">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr>
+                                    <th class="user__th">
+                                        <div class="table__beggining">
+                                            <input type="checkbox"> user
+                                        </div>
+                                    </th>
+                                    <th class="little__place">Car Comfort</th>
+                                    <th class="little__place">Ordered Time</th>
+                                    <th>Start Location</th>
+                                    <th>Finish Location</th>
+                                    <th>Income</th>
+                                </tr>
+                            </thead>
+                            
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                            <div class="user">   
+                                                <img src="accets/images/woman-image1.png" alt="image" class="woman__image" />
+                                                <div class="name__number">
+                                                    <span class="table__user">Sierra Ferguson</span>
+                                                    <span class="number">+998 (99) 436-46-15</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            simple
+                                        </td>
+                                        <td>04.12.2021 20:30</td>
+                                        <td>пл. Беш Агач, Furkat Street, Tashkent, Oʻzbekiston</td>
+                                        <td>пл. Беш Агач, Furkat Street, Tashkent, Oʻzbekiston</td>
+                                        <td>
+                                            <div class="table__green--item">
+                                                50 300 000 SUM
+                                            </div>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                            <div class="user">
+                                                <img src="accets/images/woman-image2.png" alt="image" class="woman__image" />
+                                                <div class="name__number">
+                                                    <span class="table__user">Sierra Ferguson</span>
+                                                    <span class="number">+998 (99) 436-46-15</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>otra</td>
+                                        <td>04.12.2021 20:24</td>
+                                        <td class="big__place">пл. Беш Агач, Furkat Street, Tashkent, Oʻzbekiston</td>
+                                        <td class="big__place">пл. Беш Агач, Furkat Street, Tashkent, Oʻzbekiston</td>
+                                        <td>
+                                            <div class="table__green--item">
+                                                50 300 000 SUM
+                                            </div>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                            <div class="user">
+                                                <img src="accets/images/woman-image3.png" alt="image" class="woman__image" />
+                                                <div class="name__number">
+                                                    <span class="table__user">Sierra Ferguson</span>
+                                                    <span class="number">+998 (99) 436-46-15</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>convenient</td>
+                                        <td>04.12.2021 20:23</td>
+                                        <td class="big__place">76 Фарғона Йўли, Тошкент, Oʻzbekiston</td>
+                                        <td class="big__place">76 Фарғона Йўли, Тошкент, Oʻzbekiston</td>
+                                        <td>
+                                            <div class="table__green--item">
+                                                5 300 000 SUM
+                                            </div>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                            <div class="user">
+                                                <img src="accets/images/woman-image4.png" alt="image" class="woman__image" />
+                                                <div class="name__number">
+                                                    <span class="table__user">Sierra Ferguson</span>
+                                                    <span class="number">+998 (99) 436-46-15</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>convenient</td>
+                                        <td>04.12.2021 20:23</td>
+                                        <td class="big__place">13 Kumarik ko'chasi, Tashkent 100167, Oʻzbekiston</td>
+                                        <td class="big__place">13 Kumarik ko'chasi, Tashkent 100167, Oʻzbekiston</td>
+                                        <td>
+                                            <div class="table__green--item">
+                                                500 300 000 SUM
+                                            </div>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                            <div class="user">
+                                                <img src="accets/images/woman-image5.png" alt="image" class="woman__image" />
+                                                <div class="name__number">
+                                                    <span class="table__user">Sierra Ferguson</span>
+                                                    <span class="number">+998 (99) 436-46-15</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>convenient</td>
+                                        <td>04.12.2021 20:30</td>
+                                        <td class="big__place">1 Kuyi Talarik ko'chasi, Тошкент 100091, Oʻzbekiston</td>
+                                        <td class="big__place">1 Kuyi Talarik ko'chasi, Тошкент 100091, Oʻzbekiston</td>
+                                        <td>
+                                            <div class="table__green--item">
+                                                50 300 000 SUM
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    </div>
+                    <div class="page__numbers">
+                        <span>
+                            1-2 of items
+                        </span>
+
+                        <div class="chevrons">
+                        
+                                <div>
+                                    <img src="accets/images/icons/chevron-left.svg" alt="image" />
+                                </div>
+                            
+                            <div class="one__two">
+                                <div class="background__purple">
+                                    1
+                                </div>
+                                <div id="background__white">
+                                    2
+                                </div>
+                            </div>
+                            
+                                <div>
+                                    <img src="accets/images/icons/chevron-right.svg" alt="image" />
+                                </div>
+                        
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
